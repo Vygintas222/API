@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API basics</title>
+</head>
+<body>
+  <!-- <button id="random-joke-button">Get a joke</button> -->
+<button id="random-joke-button">Random joke</button>
+  <form id="jokes">
+    <label for="joke-list">Category:</label>
+    <select name="joke-list" id="jokes-list">
+ 
+    </select>
+   
+    <input type="submit" value="Get a joke by category" id="joke-button">
+  </form>
+
+  <form id="search-form">
+    <div class="form-control">
+      <label for="search-input">Search phrase:</label>
+      <input type="text" name="search-input" id="search-input">
+    </div>
+
+    <input type="submit" value="Search" id="search-submit">
+  </form>
+
+
+  <p id="joke-paragraph"></p>
+
+
+  <form id="dog-form">
+    <label for="select-dog"></label>
+    <select name="select-dog" id="select-dog"></select>
+
+    <input type="submit" value="submit" id="dog-button">
+  </form>
+
+
+  <img id="image"  src="" alt="">
+
+
+
+  <form id="name-form">
+    <div class="form-control">
+      <label for="name">Enter a name:</label>
+      <input type="text" name="name" id="name" value="john">
+    </div>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <p id="output-paragraph"></p>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
